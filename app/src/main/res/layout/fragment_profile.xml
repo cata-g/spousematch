@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/linearlayoutProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/editProfileBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                />
+
+
+            <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/upload" />
+            <LinearLayout
+                android:id="@+id/editImageBtns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+                <Button
+                    android:id="@+id/removePhotoBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:text="Remove your photo"
+                    android:onClick="selectImage"
+                    android:layout_margin="5dp"
+                    />
+                <Button
+                    android:id="@+id/addANewPhotoBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:text="Upload your new photo"
+                    android:layout_margin="5dp"
+
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="About Me"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/aboutmeEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Preferences"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/prefsEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                />
+
+            <LinearLayout
+                android:id="@+id/detailsButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="My Details"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/preferencesButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="My Preferences"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/logoutUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout" />
+        </LinearLayout>
+</ScrollView>

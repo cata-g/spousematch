@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="photo1" type="id"/>
+    <item name="photo2" type="id"/>
+    <item name="photo3" type="id"/>
+    <item name="photo4" type="id"/>
+    <item name="photo5" type="id"/>
+    <item name="photo6" type="id"/>
+    <item name="saveProfileBtn" type="id"/>
+    <item name="diet" type="id"/>
+    <item name="dosh" type="id"/>
+    <item name="education" type="id"/>
+    <item name="height" type="id"/>
+    <item name="profession" type="id"/>
+    <item name="religion" type="id"/>
+    <item name="status" type="id"/>
+    <item name="prefdiet" type="id"/>
+    <item name="prefdosh" type="id"/>
+    <item name="prefeducation" type="id"/>
+    <item name="prefheight" type="id"/>
+    <item name="prefprofession" type="id"/>
+    <item name="prefreligion" type="id"/>
+    <item name="prefstatus" type="id"/>
+    <item name="prefage" type="id"/>
+    <item name="prefgender" type="id"/>
+</resources>

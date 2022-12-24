@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "410606598419",
+    "project_id": "spousemat-ch",
+    "storage_bucket": "spousemat-ch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410606598419:android:47dcaf790f9a27e31482e6",
+        "android_client_info": {
+          "package_name": "com.example.spousematch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410606598419-qcod4ueiaen45ajkdasrbamf0fjicv8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-7jR7b09mhO3zsRe_5LQPJ4k0ykz-qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410606598419-qcod4ueiaen45ajkdasrbamf0fjicv8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

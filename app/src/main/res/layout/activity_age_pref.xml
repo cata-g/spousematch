@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutAgePrefs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgePref"
+    android:orientation="vertical"
+    >
+
+    <org.florescu.android.rangeseekbar.RangeSeekBar
+        android:id="@+id/ageRangeBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:absoluteMaxValue="18"
+        app:absoluteMinValue="99"
+        app:showLabels="true"
+        app:singleThumb="true"
+        app:textAboveThumbsColor="@color/teal_200"
+        app:valuesAboveThumbs="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>
